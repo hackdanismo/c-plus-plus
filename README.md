@@ -7,7 +7,7 @@
 $ g++ --version
 ```
 
-## Hello, World
+## Hello, World
 A simple Hello, World example program can look like this:
 
 ```cpp
