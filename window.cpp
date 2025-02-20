@@ -10,7 +10,13 @@ int main() {
                 window.close();
         }
 
-        window.clear(sf::Color::Black);
+        /*
+        * Set a background color by passing a color to the window.clear method
+        * Red, Blue, Yellow and Green are built-in colors
+        * We can also use RGB colors
+        */
+        //window.clear(sf::Color::Black);
+        window.clear(sf::Color(100, 150, 250));
         window.display();
     }
 
